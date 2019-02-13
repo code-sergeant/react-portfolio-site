@@ -839,7 +839,6 @@ call-to-action .button {
    background-size: cover !important;
    -webkit-background-size: cover !important;
    background-attachment: fixed;
-
    position: relative;
    min-height: 200px;
    width: 100%;
@@ -847,6 +846,7 @@ call-to-action .button {
 }
 
 #testimonials .text-container {
+   opacity: 1;
    padding-top: 96px;
    padding-bottom: 66px;
 }
@@ -911,7 +911,7 @@ call-to-action .button {
 
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited {
-   color: #8B9798;
+   color: #fff;
    border: none
 }
 

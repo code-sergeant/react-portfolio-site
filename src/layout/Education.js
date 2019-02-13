@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Work() {
-  return (<section id="work">
-    <div class="row work">
+const Education = () => {
+  return (
+    <div class="row education">
       <div class="three columns header-col">
-        <h1><span>Work Experience</span></h1>
+        <h1><span>Education</span></h1>
       </div>
 
       <div class="nine columns main-col">
@@ -13,8 +13,8 @@ export default function Work() {
 
           <div class="twelve columns">
 
-            <h3>Awesome Design Studio</h3>
-            <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+            <h3>University of Life</h3>
+            <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
 
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -31,8 +31,8 @@ export default function Work() {
 
           <div class="twelve columns">
 
-            <h3>Super Cool Studio</h3>
-            <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+            <h3>School of Cool Designers</h3>
+            <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
 
             <p>
               This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -46,7 +46,8 @@ export default function Work() {
         </div>
 
       </div>
-
     </div>
-  </section>)
+  );
 };
+
+export default Education;
